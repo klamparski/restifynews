@@ -1,4 +1,4 @@
-plugin.tx_restifynews {
+config.tx_restifynews {
     persistence {
         storagePid = 4
     }

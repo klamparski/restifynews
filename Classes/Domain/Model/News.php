@@ -1,6 +1,6 @@
 <?php
 
-namespace Ins\RestifyNews\Domain\Model;
+namespace SourceBroker\Restifynews\Domain\Model;
 
 use JMS\Serializer\Annotation as Serializer;
 use SourceBroker\Restify\Annotation as Restify;
@@ -103,7 +103,7 @@ class News
     protected $authorEmail;
 
     /**
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Ins\RestifyNews\Domain\Model\Category>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\SourceBroker\Restifynews\Domain\Model\Category>
      * @Serializer\Groups({
      *     "api_get_collection_restifynews_news",
      *     "api_get_item_restifynews_news",
@@ -112,7 +112,7 @@ class News
     protected $categories;
 
     /**
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Ins\RestifyNews\Domain\Model\News>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\SourceBroker\Restifynews\Domain\Model\News>
      * @Serializer\Groups({
      *     "api_get_item_restifynews_news",
      * })
@@ -156,7 +156,7 @@ class News
     protected $istopnews;
 
     /**
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Ins\RestifyNews\Domain\Model\Tag>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\SourceBroker\Restifynews\Domain\Model\Tag>
      * @Serializer\Groups({
      *     "api_get_collection_restifynews_news",
      *     "api_get_item_restifynews_news",
@@ -165,7 +165,7 @@ class News
     protected $tags;
 
     /**
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\Ins\RestifyNews\Domain\Model\FileReference>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\SourceBroker\Restifynews\Domain\Model\FileReference>
      * @Serializer\Groups({
      *     "api_get_collection_restifynews_news",
      *     "api_get_item_restifynews_news",

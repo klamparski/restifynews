@@ -1,6 +1,6 @@
 <?php
 
-namespace Ins\RestifyNews\Domain\Model;
+namespace SourceBroker\Restifynews\Domain\Model;
 
 use JMS\Serializer\Annotation as Serializer;
 

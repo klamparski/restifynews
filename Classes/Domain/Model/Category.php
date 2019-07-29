@@ -1,12 +1,10 @@
 <?php
 
-namespace Ins\RestifyNews\Domain\Model;
+namespace SourceBroker\Restifynews\Domain\Model;
 
 use JMS\Serializer\Annotation as Serializer;
 use SourceBroker\Restify\Annotation as Restify;
-use SourceBroker\Restify\Filter\SearchFilter;
 use SourceBroker\Restify\Filter\OrderFilter;
-use SourceBroker\Restify\Filter\NumericFilter;
 use TYPO3\CMS\Extbase\Domain\Model\FileReference;
 
 /**
@@ -63,7 +61,7 @@ class Category
     protected $description;
 
     /**
-     * @var \Ins\RestifyNews\Domain\Model\Category
+     * @var \SourceBroker\Restifynews\Domain\Model\Category
      * @Serializer\Groups({
      *     "api_get_collection_restifynews_category",
      *     "api_get_item_restifynews_category",

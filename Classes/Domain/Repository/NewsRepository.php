@@ -1,6 +1,6 @@
 <?php
 
-namespace Ins\RestifyNews\Domain\Repository;
+namespace SourceBroker\Restifynews\Domain\Repository;
 
 use TYPO3\CMS\Extbase\Persistence\QueryResultInterface;
 
